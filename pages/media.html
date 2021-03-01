@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Dace's first page | Multimedia</title>
+    <link rel="icon" type="image/ico" href="../images/heart.ico">
+    <script src="https://kit.fontawesome.com/f64b29113b.js" crossorigin="anonymous"></script>
+  </head>
+  <body id="top">
+    <header>
+      <h1>
+        <a href="../index.html">Dace's first web page</a>
+      </h1>
+      <h3>First steps into creating a web page with <code>html</code> code</h3>
+    </header>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="media.html">Multimedia</a>
+      <a href="lists.html">Lists</a>
+      <a href="tables.html">Tables</a>
+    </nav>
+    <main>
+      <h4>On this page I'm adding all the media that I know how to add</h4>
+      <section>
+        <h5>Images</h5>
+        <figure>
+          <img src="../images/mypic-small.png" alt="Dace posing with sunglasses near a traditional Portuguese tile wall">
+          <figcaption>Before adding this image I adjusted it's size, so it would load faster.</figcaption>
+        </figure>
+        <figure>
+          <img src="../images/mypic.jpg" alt="Dace posing with sunglasses near a traditional Portuguese tile wall" width="800">
+          <figcaption>This picture is uploaded in it's original size, but the width is determined in the atributes.</figcaption>
+        </figure>
+      </section>
+      <hr>
+      <section>
+        <h5>Audio</h5>
+        <figure>
+          <audio controls>
+            <source src="../media/sample-audio.mp3" type="audio/mpeg">
+            Please <a href="../media/sample-audio.mp3" download>download</a> the audio file.
+          </audio>
+          <figcaption>This is an audio sample file. (Don't judge, I know it's not the best.)</figcaption>
+        </figure>
+      </section>
+      <hr>
+      <section>
+        <h5>Video</h5>
+        <figure>
+          <video controls muted poster="../images/silly-sample-poster.png">
+            <source src="../media/silly-sample.ogv" type="video/ogg">
+            Please <a href="../media/silly-sample.ogv" download>download</a> the video file.
+          </video>
+          <figcaption>This is a silly video sample file.</figcaption>
+        </figure>
+        <figure>
+          <video controls loop width="1440" poster="../images/hd-sample-poster.png">
+            <source src="../media/hd-sample.avi" type="video/x-msvideo">
+            <!-- The first video format was used only to see, if the other video fallback format is working -->
+            <source src="../media/hd-sample.mp4" type="video/mp4">
+            <source src="../media/hd-sample.webm" type="video/webm">
+            Please <a href="../media/hd-sample.mp4" download>download</a> the video file.
+          </video>
+          <figcaption>This is an hd video with adjusted width.</figcaption>
+        </figure>
+      </section>
+      <hr>
+      <section>
+        <h5>Inline frame</h5>
+        <figure>
+          <iframe src="https://www.meteo.lv/laiks/?nid=557"></iframe>
+          <figcaption>It's always good to know what's the weather. :)</figcaption>
+        </figure>
+      </section>
+      <hr>
+    </main>
+    <a href="#top">Back to top</a>
+    <footer>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="media.html">Multimedia</a>
+       <a href="lists.html">Lists</a>
+       <a href="tables.html">Tables</a>
+      </nav>
+      <p>If you wish to contact me, please, write to:</p>
+      <address>dace.bogdanova(at)gmail.com</address>
+        <p>You can also find me on:</p>
+        <a href="http://www.facebook.com" target="blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+        <a href="http://www.twitter.com" target="blank" aria-label="Twitter"><i class="fab fa-twitter-square"></i></a>
+        <a href="http://www.instagram.com" target="blank" aria-label="Instagram"><i class="fab fa-instagram-square"></i></a>
+      &copy; Dace Bogdanova
+    </footer>
+  </body>
+</html>
